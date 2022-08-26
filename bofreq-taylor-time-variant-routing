@@ -24,12 +24,12 @@ to certain times of day. Similarly in networks prioritizing green
 computing and energy efficiency over data rate, network traffic might be
 planned around energy costs or expected user data volumes.
 
-The Temporal Network Routing Working Group (TNRWG) will be chartered to
+The Time Variant Routing Working Group (TVR-WG) will be chartered to
 develop a common set of definitions, attributes, behaviors, and
 algorithms necessary to evaluate routing and forwarding decisions in the
 presence of planned loss and resumption of network connectivity.
 
-The outputs of the TNRWG will be reviewed by, and provided to, other
+The outputs of the TVR-WG will be reviewed by, and provided to, other
 Routing Area Working Groups so that time-variant attributes and
 behaviors can be appropriately incorporated into individual routing
 protocols by the relevant Working Groups.
@@ -45,7 +45,7 @@ protocols by the relevant Working Groups.
 * Conflicts: Routing, DTN
 * Chair Conflicts: TBD
 * Technology Overlap:
-* Key Participant Conflict: rick Taylor, Ed Birrane, Alvaro Retana, Erik Kline
+* Key Participant Conflict: Rick Taylor, Ed Birrane, Alvaro Retana, Erik Kline
 
 ## Information for IAB/IESG
 

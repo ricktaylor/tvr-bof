@@ -1,0 +1,60 @@
+# Name: Time Variant Routing (TVR)
+
+## Description
+
+Existing Routing Protocols expect to maintain contemporaneous,
+end-to-end connected paths across a network. Changes to that
+connectivity, such as the loss of an adjacent peer, are considered to be
+exceptional circumstances that must be corrected prior to the resumption
+of data transmission. Corrections may include attempting to re-establish
+lost adjacencies and recalculating or rediscovering a functional topology.
+
+However, there are a growing number of use-cases where changes
+to the routing topology are an expected part of network operations. In these
+cases the pre-planned loss and restoration of an adjacency, or formation of
+an alternate adjacency, should be seen as a non-disruptive event.
+
+The expected loss (and planned resumption) of links can occur for a
+variety of reasons. In networks with mobile nodes, such as unmanned
+aerial vehicles and some orbiting spacecraft constellations, links are
+lost and re-established as a function of the mobility of the platforms.
+In networks without reliable access to power, such as networks
+harvesting energy from wind and solar, link activity might be restricted
+to certain times of day. Similarly in networks prioritizing green
+computing and energy efficiency over data rate, network traffic might be
+planned around energy costs or expected user data volumes.
+
+The Temporal Network Routing Working Group (TNRWG) will be chartered to
+develop a common set of definitions, attributes, behaviors, and
+algorithms necessary to evaluate routing and forwarding decisions in the
+presence of planned loss and resumption of network connectivity.
+
+The outputs of the TNRWG will be reviewed by, and provided to, other
+Routing Area Working Groups so that time-variant attributes and
+behaviors can be appropriately incorporated into individual routing
+protocols by the relevant Working Groups.
+
+## Required Details:
+
+* Status: WG Forming
+* Responsible AD: Alvaro Retana? (aretana.ietf@gmail.com)
+* BoF Proponents: Rick Taylor (rick@tropicalstormsoftware.com), Ed Birrane (edward.birrane@jhuapl.edu)
+* BoF Chairs: TBD
+* Number of people expected to attend: 40
+* Length of Session: 1 hour
+* Conflicts: Routing, DTN
+* Chair Conflicts: TBD
+* Technology Overlap:
+* Key Participant Conflict: rick Taylor, Ed Birrane, Alvaro Retana, Erik Kline
+
+## Information for IAB/IESG
+
+TBD
+
+## Agenda
+
+TBD
+
+## Links to the mail list, draft charter, Internet-Drafts
+
+TBD

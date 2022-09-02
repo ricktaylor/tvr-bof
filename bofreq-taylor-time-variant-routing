@@ -37,14 +37,14 @@ protocols by the relevant Working Groups.
 ## Required Details:
 
 * Status: WG Forming
-* Responsible AD: Alvaro Retana? (aretana.ietf@gmail.com)
+* Responsible AD: Alvaro Retana (aretana.ietf@gmail.com)
 * BoF Proponents: Rick Taylor (rick@tropicalstormsoftware.com), Ed Birrane (edward.birrane@jhuapl.edu)
 * BoF Chairs: TBD
-* Number of people expected to attend: 40
-* Length of Session: 1 hour
+* Number of people expected to attend: 50
+* Length of Session: 90 minutes
 * Conflicts: Routing, DTN
 * Chair Conflicts: TBD
-* Technology Overlap:
+* Technology Overlap: dtn, manet
 * Key Participant Conflict: Rick Taylor, Ed Birrane, Alvaro Retana, Erik Kline
 
 ## Information for IAB/IESG
@@ -53,8 +53,21 @@ TBD
 
 ## Agenda
 
-TBD
+ - Administrivia / Chairs / 5 minutes
+
+ - Problem Statement and Use Cases / TBD / 40 minutes
+   -- Problem Statement Description / TBD / 10 minutes
+   -- Orbiting Spacecraft Use Case / TBD / 10 minutes
+   -- Power-related Use Case / TBD / 10 minutes
+   -- TBD Use Case (?) / TBD / 10 minutes
+
+ - Open Mic/Discussion / All / 15 minutes
+
+ - Charter Discussion / Chairs / 15 minutes
+
+ - Conclusions and Next Steps / Chairs and AD / 15 minutes
+
 
 ## Links to the mail list, draft charter, Internet-Drafts
 
-TBD
+Mailing List: https://www.ietf.org/mailman/listinfo/tvr

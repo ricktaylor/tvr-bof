@@ -4,71 +4,38 @@
 
 Existing Routing Protocols expect to maintain contemporaneous,
 end-to-end connected paths across a network. Changes to that
-connectivity, such as the loss of an adjacent peer, are considered to be
-exceptional circumstances that must be corrected through revised path 
-computation.
+connectivity, such as the loss of an adjacent peer, are considered
+exceptional circumstances corrected through revised path computation.
 
-However, there are a growing number of use-cases where changes
+However, a growing number of use cases exist where planned changes
 to the routing topology are an expected part of network operations. In these
-cases the pre-planned loss and restoration of an adjacency, or formation of
+cases, the pre-planned loss and restoration of an adjacency, or formation of
 an alternate adjacency, should be seen as a non-disruptive event.
 
-The expected loss (or planned activation) of links can occur for a
-variety of reasons. In networks with mobile nodes, such as unmanned
+The expected loss (or planned activation) of links can occur for
+various reasons. For example, in networks with mobile nodes, such as
 aerial vehicles and some orbiting spacecraft constellations, links are
-lost and re-established as a function of the mobility of the platforms.
-In networks without reliable access to power, such as networks
-harvesting energy from wind and solar, link activity might be restricted
-to certain times of day. Similarly in networks prioritizing green
-computing and energy efficiency over data rate, network traffic might be
-planned around energy costs or expected user data volumes.
+lost and re-established as a function of their mobility.
+Similarly, network traffic might be planned around energy costs or
+expected user data volumes in networks prioritizing green computing and
+energy efficiency over data rate.
 
-The Time Variant Routing Working Group (TVR-WG) will be chartered to
+The Time Variant Routing Working Group (TVR WG) is chartered to
 develop a common set of definitions, attributes, architectures, behaviors, and
 algorithms necessary to evaluate routing and forwarding decisions in the
 presence of planned loss or activation of network connectivity based on
-confirmed scheduled events. The WG may also address the impacts of a 
-continually changing topology upon the hierarchical structure of the network.
+scheduled events. The WG may also address the impacts of a
+continually changing topology on the hierarchical structure of the network.
 
-The outputs of the TVR-WG will be reviewed by, and provided to, other
-Routing Area Working Groups so that time-variant attributes and
-behaviors can be appropriately incorporated into individual routing
-protocols by the relevant Working Groups.
-
-## Required Details:
-
-* Status: WG Forming
-* Responsible AD: Alvaro Retana (aretana.ietf@gmail.com)
-* BoF Proponents: Rick Taylor (rick@tropicalstormsoftware.com), Ed Birrane (edward.birrane@jhuapl.edu)
-* BoF Chairs: TBD
-* Number of people expected to attend: 50
-* Length of Session: 90 minutes
-* Conflicts: Routing, DTN
-* Chair Conflicts: TBD
-* Technology Overlap: dtn, manet
-* Key Participant Conflict: Rick Taylor, Ed Birrane, Alvaro Retana, Erik Kline
-
-## Information for IAB/IESG
-
-TBD
-
-## Agenda
-
- - Administrivia / Chairs / 5 minutes
-
- - Problem Statement and Use Cases / TBD / 40 minutes
-   -- Problem Statement Description / TBD / 10 minutes
-   -- Orbiting Spacecraft Use Case / TBD / 10 minutes
-   -- Power-related Use Case / TBD / 10 minutes
-   -- TBD Use Case (?) / TBD / 10 minutes
-
- - Open Mic/Discussion / All / 15 minutes
-
- - Charter Discussion / Chairs / 15 minutes
-
- - Conclusions and Next Steps / Chairs and AD / 15 minutes
+The outputs of the TVR WG will be reviewed by, and provided to, other
+Routing Area Working Groups.  If needed, the relevant Working Groups can
+incorporate time-variant attributes and behaviors into individual routing
+protocols.
 
 
-## Links to the mail list, draft charter, Internet-Drafts
+## Deliverables/Milestones
 
-Mailing List: https://www.ietf.org/mailman/listinfo/tvr
+* Problem Statement/Requirements
+* Information Model describing the set of attributes needed
+* YANG Data Model for a Schedule Definition
+* Deployment/Operational Considerations (e.g. conflict resolution)

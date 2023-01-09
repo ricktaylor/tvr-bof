@@ -5,16 +5,15 @@
 Existing Routing Protocols expect to maintain contemporaneous,
 end-to-end connected paths across a network. Changes to that
 connectivity, such as the loss of an adjacent peer, are considered to be
-exceptional circumstances that must be corrected prior to the resumption
-of data transmission. Corrections may include attempting to re-establish
-lost adjacencies and recalculating or rediscovering a functional topology.
+exceptional circumstances that must be corrected through revised path 
+computation.
 
 However, there are a growing number of use-cases where changes
 to the routing topology are an expected part of network operations. In these
 cases the pre-planned loss and restoration of an adjacency, or formation of
 an alternate adjacency, should be seen as a non-disruptive event.
 
-The expected loss (and planned resumption) of links can occur for a
+The expected loss (or planned activation) of links can occur for a
 variety of reasons. In networks with mobile nodes, such as unmanned
 aerial vehicles and some orbiting spacecraft constellations, links are
 lost and re-established as a function of the mobility of the platforms.
@@ -25,9 +24,11 @@ computing and energy efficiency over data rate, network traffic might be
 planned around energy costs or expected user data volumes.
 
 The Time Variant Routing Working Group (TVR-WG) will be chartered to
-develop a common set of definitions, attributes, behaviors, and
+develop a common set of definitions, attributes, architectures, behaviors, and
 algorithms necessary to evaluate routing and forwarding decisions in the
-presence of planned loss and resumption of network connectivity.
+presence of planned loss or activation of network connectivity based on
+confirmed scheduled events. The WG may also address the impacts of a 
+continually changing topology upon the hierarchical structure of the network.
 
 The outputs of the TVR-WG will be reviewed by, and provided to, other
 Routing Area Working Groups so that time-variant attributes and
